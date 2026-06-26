@@ -14,7 +14,9 @@
   <meta property="og:description" content="Find cat groomers near me across Canada. Compare cat grooming services, mobile availability, ratings, weekend hours, booking options and local provider details.">
   <meta property="og:url" content="https://catgroomerscanada.ca/">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Cat Groomers Canada","url":"https://catgroomerscanada.ca","logo":"https://catgroomerscanada.ca/assets/logo.svg","sameAs":[]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Cat Groomers Canada","url":"https://catgroomerscanada.ca","potentialAction":{"@type":"SearchAction","target":"https://catgroomerscanada.ca/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I find cat groomers near me?","acceptedAnswer":{"@type":"Answer","text":"Search by city, province or postal-code area, then compare cat-specific service signals, mobile availability, booking links, ratings, weekend hours and contact details."}},{"@type":"Question","name":"Does every pet groomer groom cats?","acceptedAnswer":{"@type":"Answer","text":"No. Cats need different handling, coat knowledge and stress management. Always confirm that the business currently accepts cats before booking."}},{"@type":"Question","name":"What makes this directory useful?","acceptedAnswer":{"@type":"Answer","text":"Each listing includes a professional summary, local signals, mobile indicators, source links, booking details and practical questions to ask before an appointment."}}]}</script>
@@ -24,26 +26,26 @@
 <header class="site-header">
   <div class="shell nav-shell">
     <a class="brand" href="/" aria-label="Cat Groomers Canada home">
-      <img src="/assets/logo.svg" alt="Cat Groomers Canada logo" width="212" height="52">
+      <img src="/assets/logo.svg" alt="Cat Groomers Canada logo" width="260" height="64">
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-      <a href="/provinces/">Browse provinces</a>
-      <a href="/guides/cat-groomers-near-me/">Guide</a>
-      <a href="/guides/mobile-cat-grooming/">Mobile grooming</a>
+      <a href="/provinces/">Provinces</a>
+      <a href="/guides/cat-groomers-near-me/">Grooming guide</a>
       <a href="/add-your-business/">Add business</a>
+      <a href="/about/">About</a>
     </nav>
   </div>
 </header>
 <main id="main"><section class="hero">
   <div class="shell hero-grid">
-    <div>
+    <div class="hero-copy-wrap">
       <h1>Find cat groomers near you in Canada</h1>
       <p class="hero-copy">Cat Groomers Canada helps Canadian pet parents compare cat grooming providers by city, province, mobile availability, ratings, weekend hours, booking links and service signals.</p>
       <form class="search-panel" role="search" aria-label="Directory search">
-        <label for="site-search">Search by city, groomer name or postal-code area</label>
+        <label class="search-label" for="site-search">Search by city, groomer name or postal-code area</label>
         <div class="search-row">
-          <input id="site-search" type="search" placeholder="Try Toronto, Calgary, mobile cat grooming..." autocomplete="off">
+          <input id="site-search" type="search" placeholder="City, postal code, service or groomer" autocomplete="off">
           <select id="province-filter" aria-label="Filter by province">
             <option value="">All provinces</option>
             <option value="AB">Alberta</option><option value="BC">British Columbia</option><option value="MB">Manitoba</option><option value="NB">New Brunswick</option><option value="NL">Newfoundland and Labrador</option><option value="NS">Nova Scotia</option><option value="ON">Ontario</option><option value="PE">Prince Edward Island</option><option value="QC">Quebec</option><option value="SK">Saskatchewan</option>
@@ -65,21 +67,31 @@
         </div>
         <p class="location-status" id="location-status" aria-live="polite">Location sorting off.</p>
         <label class="check-line"><input id="mobile-only" type="checkbox"> Mobile or in-home groomers only</label>
+        <div class="search-actions">
+          <a class="button secondary" href="/provinces/">Browse provinces</a>
+          <a class="quiet-link" href="/guides/cat-groomers-near-me/">Read the grooming guide</a>
+        </div>
       </form>
       <div id="search-results" class="live-results" aria-live="polite"></div>
     </div>
-    <div class="hero-panel">
-      <h2>What you can compare</h2>
-      <ul class="check-list">
-        <li>Cat grooming services, nail trims, lion cuts, dematting and bath signals</li>
-        <li>Mobile, in-home and house-call availability where indicated</li>
-        <li>Google ratings, review volume, weekend hours and booking links</li>
-        <li>Public source links and clear contact details</li>
-      </ul>
-    </div>
+    <figure class="hero-media">
+      <img src="/assets/hero-cat-grooming.webp" alt="A calm long-haired cat being brushed in a bright grooming studio" width="1672" height="941" fetchpriority="high">
+      <figcaption>
+        <strong>989 Canadian listings</strong>
+        <span>60 mobile or in-home options indicated</span>
+      </figcaption>
+    </figure>
   </div>
 </section>
-<section class="section">
+<section class="trust-strip" aria-label="Directory summary">
+  <div class="shell trust-grid">
+    <div><strong>989</strong><span>cat grooming listings</span></div>
+    <div><strong>354</strong><span>city pages</span></div>
+    <div><strong>60</strong><span>mobile options indicated</span></div>
+    <div><strong>711</strong><span>with weekend hours signals</span></div>
+  </div>
+</section>
+<section class="section province-band">
   <div class="shell">
     <div class="section-head">
       <h2>Browse cat groomers by province</h2>
@@ -127,7 +139,7 @@
 </a></div>
   </div>
 </section>
-<section class="section alt">
+<section class="section alt editorial-section">
   <div class="shell split">
     <div>
       <h2>Popular city directories</h2>
@@ -157,8 +169,9 @@
 <a href="/cities/surrey-bc/">Surrey, BC <span>8</span></a>
 <a href="/cities/burnaby-bc/">Burnaby, BC <span>7</span></a></div>
     </div>
-    <aside class="value-box">
-      <h2>How this avoids thin directory pages</h2>
+    <aside class="value-box guide-image-card">
+      <img src="/assets/grooming-tools.webp" alt="Cat grooming tools arranged beside a calm cat" width="1200" height="900" loading="lazy">
+      <h2>Built for useful local decisions</h2>
       <p>Each location page includes local counts, mobile and weekend availability, practical cat-grooming questions, nearby links and listing-specific summaries rather than repeated placeholder text.</p>
       <a class="button secondary" href="/editorial-policy/">Read our editorial policy</a>
     </aside>
@@ -267,7 +280,7 @@
 </section></main><footer class="site-footer">
   <div class="shell footer-grid">
     <div>
-      <img src="/assets/logo-light.svg" alt="Cat Groomers Canada" width="212" height="52">
+      <img src="/assets/logo-light.svg" alt="Cat Groomers Canada" width="260" height="64">
       <p>Directory details are compiled from public business listings and provider websites. Always confirm services, prices, hours, vaccination requirements and appointment policies directly with the grooming business before booking.</p>
     </div>
     <div>
