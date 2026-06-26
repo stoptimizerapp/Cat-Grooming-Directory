@@ -49,6 +49,21 @@
             <option value="AB">Alberta</option><option value="BC">British Columbia</option><option value="MB">Manitoba</option><option value="NB">New Brunswick</option><option value="NL">Newfoundland and Labrador</option><option value="NS">Nova Scotia</option><option value="ON">Ontario</option><option value="PE">Prince Edward Island</option><option value="QC">Quebec</option><option value="SK">Saskatchewan</option>
           </select>
         </div>
+        <div class="location-row">
+          <button class="button location-button" id="use-location" type="button">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z" fill="currentColor"/></svg>
+            Use my location
+          </button>
+          <select id="radius-filter" aria-label="Distance radius">
+            <option value="25">Within 25 km</option>
+            <option value="50" selected>Within 50 km</option>
+            <option value="100">Within 100 km</option>
+            <option value="250">Within 250 km</option>
+            <option value="">Closest anywhere</option>
+          </select>
+          <button class="button ghost location-clear" id="clear-location" type="button" hidden>Clear location</button>
+        </div>
+        <p class="location-status" id="location-status" aria-live="polite">Location sorting off.</p>
         <label class="check-line"><input id="mobile-only" type="checkbox"> Mobile or in-home groomers only</label>
       </form>
       <div id="search-results" class="live-results" aria-live="polite"></div>
