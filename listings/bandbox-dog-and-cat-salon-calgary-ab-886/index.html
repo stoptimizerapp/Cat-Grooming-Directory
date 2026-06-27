@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Calgary","item":"https://catgroomerscanada.ca/cities/calgary-ab/"},{"@type":"ListItem","position":4,"name":"Bandbox dog and cat salon","item":"https://catgroomerscanada.ca/listings/bandbox-dog-and-cat-salon-calgary-ab-886/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Bandbox dog and cat salon","description":"Bandbox dog and cat salon is a cat grooming listing in Calgary, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat-specific branding. Helpful details include 4.2-star Google rating from 5 reviews, weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/bandbox-dog-and-cat-salon-calgary-ab-886/","telephone":"+1 403-245-2779","image":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=fbnExXzRPJ3bOpvcVIeKaw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=75.048164&pitch=0&thumbfov=100","address":{"@type":"PostalAddress","streetAddress":"94 Aspen Ridge Crescent SW","addressLocality":"Calgary","addressRegion":"AB","postalCode":"T3H 5J7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"51.0450494","longitude":"-114.1952758"},"areaServed":"Calgary, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.2,"reviewCount":5,"bestRating":5,"worstRating":1},"sameAs":["http://www.bandboxdogsalon.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

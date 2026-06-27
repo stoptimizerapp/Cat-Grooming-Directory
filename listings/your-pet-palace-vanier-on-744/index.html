@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Vanier","item":"https://catgroomerscanada.ca/cities/vanier-on/"},{"@type":"ListItem","position":4,"name":"Your Pet Palace","item":"https://catgroomerscanada.ca/listings/your-pet-palace-vanier-on-744/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Your Pet Palace","description":"Your Pet Palace is a cat grooming listing in Vanier, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.5-star Google rating from 114 reviews, weekend hours, debit cards, tap/mobile payments, credit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/your-pet-palace-vanier-on-744/","telephone":"+1 613-747-6568","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYKXxRFKomkBWL0LMlut8TNoC0Hy7KKiZIaAYVynku9gUSj4rmhO9lI4DXJzmJVlmz1PkBgYwh7JOklB5HIGDGborh3P2XsQJZez4NYqJCzHj98sjwZmNu3Jo1oNjUn12iN-_9=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"264 Olmstead St","addressLocality":"Vanier","addressRegion":"ON","postalCode":"K1L 7J8","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4362638","longitude":"-75.6632813"},"areaServed":"Vanier, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":114,"bestRating":5,"worstRating":1},"sameAs":["http://www.yourpetpalace.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

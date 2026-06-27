@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Nisku","item":"https://catgroomerscanada.ca/cities/nisku-ab/"},{"@type":"ListItem","position":4,"name":"Club Mead Pet Resort","item":"https://catgroomerscanada.ca/listings/club-mead-pet-resort-nisku-ab-845/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Club Mead Pet Resort","description":"Club Mead Pet Resort is a cat grooming listing in Nisku, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.6-star Google rating from 509 reviews, weekend hours, evening hours, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/club-mead-pet-resort-nisku-ab-845/","telephone":"+1 780-986-3647","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGTuG3wGWliPsjuj6V40dWG46KOCwo8UHCQh3I7JCD3_0LaOx5suR7s5xJc1yXyyHzG_zP21nx7aRdkVnAEZHJo60as6effjzAldG2E99SKibLBtK7uRpw-VjMgL_MY-ZkcRz5Bkg=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"901 10 St","addressLocality":"Nisku","addressRegion":"AB","postalCode":"T9E 8K6","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.3092741","longitude":"-113.5111441"},"areaServed":"Nisku, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.6,"reviewCount":509,"bestRating":5,"worstRating":1},"sameAs":["https://clubmead.com/%3Futm_source%3Dgooglemaps%26utm_medium%3Dorganic%26utm_campaign%3Dlocal_listing"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

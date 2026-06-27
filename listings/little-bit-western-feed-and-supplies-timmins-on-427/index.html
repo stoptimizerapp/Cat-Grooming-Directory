@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Timmins","item":"https://catgroomerscanada.ca/cities/timmins-on/"},{"@type":"ListItem","position":4,"name":"Little Bit Western Feed & Supplies","item":"https://catgroomerscanada.ca/listings/little-bit-western-feed-and-supplies-timmins-on-427/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Little Bit Western Feed & Supplies","description":"Little Bit Western Feed & Supplies is a cat grooming listing in Timmins, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet supply store services with cat-grooming relevance. Helpful details include 4.4-star Google rating from 133 reviews, weekend hours, evening hours, onsite services, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/little-bit-western-feed-and-supplies-timmins-on-427/","telephone":"+1 705-268-0822","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAE35lYb4DWTKo4ruLeBw7b0Dn0jwu56QWJ5OAfHAvxoWZSPVEqxwUQvZT_nm1UzW9Oh6dn_xVj-5FyrxLOmgFrT36ETCd0ZPZlxYuk8QUlsERYmLtC0SqgTBfxg89WW_QcgVFkGLA=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"372 Algonquin Blvd W","addressLocality":"Timmins","addressRegion":"ON","postalCode":"P4N 4S5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"48.476412","longitude":"-81.3463151"},"areaServed":"Timmins, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":133,"bestRating":5,"worstRating":1},"sameAs":["http://www.littlebitwestern.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

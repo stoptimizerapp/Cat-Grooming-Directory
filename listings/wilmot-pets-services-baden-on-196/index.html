@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Baden","item":"https://catgroomerscanada.ca/cities/baden-on/"},{"@type":"ListItem","position":4,"name":"Wilmot Pets Services","item":"https://catgroomerscanada.ca/listings/wilmot-pets-services-baden-on-196/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Wilmot Pets Services","description":"Wilmot Pets Services is a cat grooming listing in Baden, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, nail trim, ear cleaning. Helpful details include 4.9-star Google rating from 52 reviews, online booking or appointment links, weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/wilmot-pets-services-baden-on-196/","telephone":"+1 519-589-8595","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFe_bUB29fKWg_n44cTtg6z_irxdnMxDWyaWB0V6EOuK3UvxgiDhaB6C63Pt0NIWnDusczphzul6CBP8WjfiqgqNq2CtNaYeAKeqzgzzNW5aBqpx4ThdUOBSYBdZG4hMy7e8iGR=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"12 Village Green Way","addressLocality":"Baden","addressRegion":"ON","postalCode":"N3A 2S5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.4004799","longitude":"-80.6605447"},"areaServed":"Baden, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":52,"bestRating":5,"worstRating":1},"sameAs":["https://wilmotpets.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

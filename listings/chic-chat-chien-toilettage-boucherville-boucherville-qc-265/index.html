@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Boucherville","item":"https://catgroomerscanada.ca/cities/boucherville-qc/"},{"@type":"ListItem","position":4,"name":"Chic Chat Chien - Toilettage Boucherville","item":"https://catgroomerscanada.ca/listings/chic-chat-chien-toilettage-boucherville-boucherville-qc-265/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Chic Chat Chien - Toilettage Boucherville","description":"Chic Chat Chien - Toilettage Boucherville is a cat grooming listing in Boucherville, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for low-stress handling. Helpful details include 4.2-star Google rating from 62 reviews, weekend hours. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/chic-chat-chien-toilettage-boucherville-boucherville-qc-265/","telephone":"+1 438-934-8015","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHG3ezVy1tV3alI6nv7U-9Nd56mREIhaiPi_OOXFjQCBNszQYjdlyFSzD_ybMsbAogWftyoMS2KZtSW0qDi8OCAs3r98kCiKbJL36qFK5sXcQWrh0udxR-Vjqb9MtGsGU19BnM=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"69 Rue François-Gauthier","addressLocality":"Boucherville","addressRegion":"QC","postalCode":"J4B 4N5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.6201957","longitude":"-73.4511434"},"areaServed":"Boucherville, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.2,"reviewCount":62,"bestRating":5,"worstRating":1},"sameAs":["http://www.chicchatchien.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

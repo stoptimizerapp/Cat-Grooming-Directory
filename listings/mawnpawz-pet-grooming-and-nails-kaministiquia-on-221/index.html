@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Kaministiquia","item":"https://catgroomerscanada.ca/cities/kaministiquia-on/"},{"@type":"ListItem","position":4,"name":"Mawnpawz Pet Grooming and Nails","item":"https://catgroomerscanada.ca/listings/mawnpawz-pet-grooming-and-nails-kaministiquia-on-221/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mawnpawz Pet Grooming and Nails","description":"Mawnpawz Pet Grooming and Nails is a cat grooming listing in Kaministiquia, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, deshedding / brush-out, sanitary trim. Helpful details include 5-star Google rating from 11 reviews, online booking or appointment links, weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services, visit the.","url":"https://catgroomerscanada.ca/listings/mawnpawz-pet-grooming-and-nails-kaministiquia-on-221/","telephone":"+1 807-633-2873","image":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=unuY_IC4iV6a0OWEeVrGSQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=312.80997&pitch=0&thumbfov=100","address":{"@type":"PostalAddress","streetAddress":"6534 ON-102","addressLocality":"Kaministiquia","addressRegion":"ON","postalCode":"P0T 1X0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"48.5334267","longitude":"-89.6101358"},"areaServed":"Kaministiquia, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":11,"bestRating":5,"worstRating":1},"sameAs":["http://mawnpawz.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

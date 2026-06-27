@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Newmarket","item":"https://catgroomerscanada.ca/cities/newmarket-on/"},{"@type":"ListItem","position":4,"name":"Dog&Cat Grooming in Newmarket","item":"https://catgroomerscanada.ca/listings/dog-and-cat-grooming-in-newmarket-newmarket-on-290/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Dog&Cat Grooming in Newmarket","description":"Dog&Cat Grooming in Newmarket is a cat grooming listing in Newmarket, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 5-star Google rating from 43 reviews, tap/mobile payments, on-site parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/dog-and-cat-grooming-in-newmarket-newmarket-on-290/","telephone":"+1 905-392-7467","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQb5CeR7dIUvWf6lCojO40ExFXNCr-Tpn0GO5oGIO0Fk0PVQrdY_9ENMOira6AaZ9-yOFLKdz7b6aIq7eUPkiInZBx69K5nDiTNh9sihmE8DYJnA2Z3tA7r26IUTmoxwitIrHK=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"56 Burgess Crescent","addressLocality":"Newmarket","addressRegion":"ON","postalCode":"L3X 2T7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"44.030168","longitude":"-79.4768261"},"areaServed":"Newmarket, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":43,"bestRating":5,"worstRating":1},"sameAs":["https://gamma.app/docs/Calm-Clean-Professional-Grooming-xyeccr5tlj484jq"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

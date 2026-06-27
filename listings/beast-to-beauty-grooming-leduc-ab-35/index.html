@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Leduc","item":"https://catgroomerscanada.ca/cities/leduc-ab/"},{"@type":"ListItem","position":4,"name":"Beast To Beauty Grooming","item":"https://catgroomerscanada.ca/listings/beast-to-beauty-grooming-leduc-ab-35/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Beast To Beauty Grooming","description":"Beast To Beauty Grooming is a cat grooming listing in Leduc, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, dematting. Helpful details include 4.8-star Google rating from 207 reviews, online booking or appointment links, onsite services, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm.","url":"https://catgroomerscanada.ca/listings/beast-to-beauty-grooming-leduc-ab-35/","telephone":"+1 587-404-9199","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHD-ycZhggfsHF8WRDpZmKTAI6y4JzwbHRZRv_Y7bzDzz2r7nCIn96N5nXaNEqZF9TvtK93R5oFPYoNsnbu4z5lZb1ehwvgFCdu8LKD9a_jvFQDR8U5K4mxmP29M23u_7rk9rQWPtSIx6Hd=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4403 56 Ave","addressLocality":"Leduc","addressRegion":"AB","postalCode":"T9E 6T7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.2705033","longitude":"-113.5416496"},"areaServed":"Leduc, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":207,"bestRating":5,"worstRating":1},"sameAs":["https://beast2beauty.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

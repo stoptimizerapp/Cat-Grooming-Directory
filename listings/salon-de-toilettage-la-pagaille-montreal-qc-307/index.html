@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Montreal","item":"https://catgroomerscanada.ca/cities/montreal-qc/"},{"@type":"ListItem","position":4,"name":"Salon De Toilettage La Pagaille","item":"https://catgroomerscanada.ca/listings/salon-de-toilettage-la-pagaille-montreal-qc-307/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Salon De Toilettage La Pagaille","description":"Salon De Toilettage La Pagaille is a cat grooming listing in Montreal, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.3-star Google rating from 138 reviews, weekend hours. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/salon-de-toilettage-la-pagaille-montreal-qc-307/","telephone":"+1 514-389-3930","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGppKIu-XEmVjN2G36TYQQ-i6BCIMjdpZ9PWgaEVUcy-HRbuCNVP1xQeHsQSdBYPn_ub0FSY8AH57ih0Y1-yJYYmuNEX-UsAu2_riXfpFd-wBghlZFsGTvJ4D48fg9Rl--9PqY2=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"311 Rue Fleury O","addressLocality":"Montreal","addressRegion":"QC","postalCode":"H3L 1V4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.5440086","longitude":"-73.667762"},"areaServed":"Montreal, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.3,"reviewCount":138,"bestRating":5,"worstRating":1},"sameAs":["https://www.lapagailletoilettage.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Manitoba","item":"https://catgroomerscanada.ca/provinces/mb/"},{"@type":"ListItem","position":3,"name":"Winnipeg","item":"https://catgroomerscanada.ca/cities/winnipeg-mb/"},{"@type":"ListItem","position":4,"name":"Oliver Professional Dog and Cat Grooming Spa","item":"https://catgroomerscanada.ca/listings/oliver-professional-dog-and-cat-grooming-spa-winnipeg-mb-114/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Oliver Professional Dog and Cat Grooming Spa","description":"Oliver Professional Dog and Cat Grooming Spa is a cat grooming listing in Winnipeg, MB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.7-star Google rating from 176 reviews, weekend hours, wheelchair-accessible parking, credit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/oliver-professional-dog-and-cat-grooming-spa-winnipeg-mb-114/","telephone":"+1 431-335-5314","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5vtInAIM68x0QfLq4W_ZVL2KCwwFNTbEod_j1GRBNjVpfmlbreOf7FkLEHGHr4tdrtuzZ5ldv2I-IlaR9di3xMLkpNueIgF1PbUC7qDYraAgj7Lgu8NPhjy3lJJxJMeYUqCbS-w=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"970 Salter St","addressLocality":"Winnipeg","addressRegion":"MB","postalCode":"R2V 3H8","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.9415277","longitude":"-97.1208944"},"areaServed":"Winnipeg, MB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.7,"reviewCount":176,"bestRating":5,"worstRating":1},"sameAs":["https://www.facebook.com/p/Oliver-Professional-Dog-and-Cat-Grooming-Spa-100051149302417/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

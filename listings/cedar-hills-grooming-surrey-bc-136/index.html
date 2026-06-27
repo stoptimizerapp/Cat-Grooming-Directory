@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"British Columbia","item":"https://catgroomerscanada.ca/provinces/bc/"},{"@type":"ListItem","position":3,"name":"Surrey","item":"https://catgroomerscanada.ca/cities/surrey-bc/"},{"@type":"ListItem","position":4,"name":"Cedar Hills Grooming","item":"https://catgroomerscanada.ca/listings/cedar-hills-grooming-surrey-bc-136/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cedar Hills Grooming","description":"Cedar Hills Grooming is a cat grooming listing in Surrey, BC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, ear cleaning. Helpful details include 4.4-star Google rating from 130 reviews, online booking or appointment links, weekend hours, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/cedar-hills-grooming-surrey-bc-136/","telephone":"+1 604-583-9335","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAOTYQeT-RZyP-ILXl4XJ8KcrNjEgYiQbHzEvqm2qRF-EIw-AMnbKkrPs45a_gf0OypmR5vQhnjXvbv99Fqp2cdzw2k4KSDua5g6TLe0oxMeUMYzAxoLiSyx9IY3tUQg5DLuTWx4SKIIfL=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"12859 96 Ave","addressLocality":"Surrey","addressRegion":"BC","postalCode":"V3V 6V9","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.177175","longitude":"-122.865527"},"areaServed":"Surrey, BC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":130,"bestRating":5,"worstRating":1},"sameAs":["http://cedarhillspetgrooming.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

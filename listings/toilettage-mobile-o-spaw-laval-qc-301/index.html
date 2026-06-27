@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Laval","item":"https://catgroomerscanada.ca/cities/laval-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage Mobile O-Spaw","item":"https://catgroomerscanada.ca/listings/toilettage-mobile-o-spaw-laval-qc-301/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage Mobile O-Spaw","description":"Toilettage Mobile O-Spaw is a cat grooming listing in Laval, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for mobile grooming, low-stress handling. Helpful details include 4.8-star Google rating from 44 reviews, weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-mobile-o-spaw-laval-qc-301/","telephone":"+1 514-779-6664","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKRyYhrmeK5rcCE_2evPI8Jw1mitF0nk-6ZHrcPaKdHS7xGsvRihBptqUw6E1G8QkhsKsXwOd9bA45SUc8k8myQNH5lRluDhieGHkgR_NhFZfao69mv_j5-hGLNbiE6cAIxTdAzg=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"Mobile","addressLocality":"Laval","addressRegion":"QC","postalCode":"","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.5699314","longitude":"-73.7804623"},"areaServed":"Laval, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":44,"bestRating":5,"worstRating":1},"sameAs":["http://www.toilettagemobile.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

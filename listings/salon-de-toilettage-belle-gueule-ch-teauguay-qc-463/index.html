@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Châteauguay","item":"https://catgroomerscanada.ca/cities/ch-teauguay-qc/"},{"@type":"ListItem","position":4,"name":"Salon de Toilettage Belle-Gueule","item":"https://catgroomerscanada.ca/listings/salon-de-toilettage-belle-gueule-ch-teauguay-qc-463/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Salon de Toilettage Belle-Gueule","description":"Salon de Toilettage Belle-Gueule is a cat grooming listing in Châteauguay, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.8-star Google rating from 81 reviews, wheelchair-accessible entrance, wheelchair-accessible parking, credit cards, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/salon-de-toilettage-belle-gueule-ch-teauguay-qc-463/","telephone":"+1 438-403-3954","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0rFsPTYo9rbLXhhe7DYjnwgXJzqRBChtcWHXdVqq8S8-iKx1gNHTP2TU2Cxp2CFWRyM9SNVBLF0X7PJNku9f_fr_ve9ML4FddKJmRJ0UOBwOgN5-H8y4OIPn1YuDj5Nd0FNBRtcxXtb67=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"507 Rue Edmour","addressLocality":"Châteauguay","addressRegion":"QC","postalCode":"J6J 2T2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.3824054","longitude":"-73.766561"},"areaServed":"Châteauguay, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":81,"bestRating":5,"worstRating":1},"sameAs":["https://www.icilocale.ca/salon-de-toilettage-belle-gueule/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

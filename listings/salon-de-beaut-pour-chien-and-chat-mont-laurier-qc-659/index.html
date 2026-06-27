@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Mont-Laurier","item":"https://catgroomerscanada.ca/cities/mont-laurier-qc/"},{"@type":"ListItem","position":4,"name":"Salon de Beauté pour Chien & Chat","item":"https://catgroomerscanada.ca/listings/salon-de-beaut-pour-chien-and-chat-mont-laurier-qc-659/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Salon de Beauté pour Chien & Chat","description":"Salon de Beauté pour Chien & Chat is a cat grooming listing in Mont-Laurier, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include wheelchair-accessible parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/salon-de-beaut-pour-chien-and-chat-mont-laurier-qc-659/","telephone":"+1 819-623-6897","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGGdHXuBUM7IN9652M1u6rUbjBXrmAcbsWri_PwUJzNKbv1HmrbdUt52hMwk-IR9FDovplid7OaxmRHEdiUmQ5MTkB0189YlbS1gTIYCgOfYU9C6w_ZxiyiDzAyF6oOj_pNr_BWaQ=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1051 Bd Albiny Paquette","addressLocality":"Mont-Laurier","addressRegion":"QC","postalCode":"J9L 1M4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"46.5512292","longitude":"-75.4835665"},"areaServed":"Mont-Laurier, QC"}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

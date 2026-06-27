@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Terrebonne","item":"https://catgroomerscanada.ca/cities/terrebonne-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage kanin senc","item":"https://catgroomerscanada.ca/listings/toilettage-kanin-senc-terrebonne-qc-333/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage kanin senc","description":"Toilettage kanin senc is a cat grooming listing in Terrebonne, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 5-star Google rating from 18 reviews, wheelchair-accessible parking, credit cards, debit cards, tap/mobile payments. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-kanin-senc-terrebonne-qc-333/","telephone":"+1 450-820-1166","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqQIBt8UH6S7wZicBY-IpHRhwJ0Y9u5ePXUjGXRYWnmzKhaoTRHA8jWWwNCNoI3Jg0tRLEbkQxmsz6y2nu8QkpKBXlzCb6FCRGD2XrXEM_KI4CWSKw0y40p47L48UwTCcLJafnbiZw9XMl=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"262 Côte de Terrebonne","addressLocality":"Terrebonne","addressRegion":"QC","postalCode":"J6Y 1P1","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.6764181","longitude":"-73.7441073"},"areaServed":"Terrebonne, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":18,"bestRating":5,"worstRating":1},"sameAs":["https://www.toilettagekanin.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Montreal","item":"https://catgroomerscanada.ca/cities/montreal-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage Felinus Inc","item":"https://catgroomerscanada.ca/listings/toilettage-felinus-inc-montreal-qc-249/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage Felinus Inc","description":"Toilettage Felinus Inc is a cat grooming listing in Montreal, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat-focused grooming and signals for cat grooming, low-stress handling, cat-only / cat-focused. Helpful details include 4.9-star Google rating from 488 reviews, weekend hours, evening hours, onsite services, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-felinus-inc-montreal-qc-249/","telephone":"+1 514-931-3310","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9n0o1FY3iHNd-U12t_1HNChZ1r6oH8uDOeizqLYgYnWB6Ph3iiGh-ZsiND3Cb5i3DPtdhB15QFLNzaNCa0EUIyZTEoCS4K9BPyPZwnZlCPsY3OZDe_BW6F-ipzUFaa9mWaeH_=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"3554 R. Notre Dame O","addressLocality":"Montreal","addressRegion":"QC","postalCode":"H4C 1P4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4799814","longitude":"-73.5800687"},"areaServed":"Montreal, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":488,"bestRating":5,"worstRating":1},"sameAs":["http://felinus.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

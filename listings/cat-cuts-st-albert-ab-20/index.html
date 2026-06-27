@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"St. Albert","item":"https://catgroomerscanada.ca/cities/st-albert-ab/"},{"@type":"ListItem","position":4,"name":"Cat Cuts","item":"https://catgroomerscanada.ca/listings/cat-cuts-st-albert-ab-20/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cat Cuts","description":"Cat Cuts is a cat grooming listing in St. Albert, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat-specific branding. Helpful details include 4.9-star Google rating from 39 reviews, credit cards, debit cards, tap/mobile payments, on-site parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/cat-cuts-st-albert-ab-20/","telephone":"+1 780-459-7042","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhdLeOUnm1Y4p5tbj8fgZCmQa1BgtFKly_zLS89raZL_PGPH4oh6bbQLYH49noNrWJCVKp7Ecd5Jl0MpGPyRBKmQuJA4aVZu0HOYgWMHMeqBDUUsReR0OqkSUKJYnZEEylA75N=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"10 Mural Crescent","addressLocality":"St. Albert","addressRegion":"AB","postalCode":"T8N 1J9","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.6339811","longitude":"-113.6348878"},"areaServed":"St. Albert, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":39,"bestRating":5,"worstRating":1}}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

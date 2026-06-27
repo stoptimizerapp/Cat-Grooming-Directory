@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Richelieu","item":"https://catgroomerscanada.ca/cities/richelieu-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage Sunshine - Spa canin et soins félins","item":"https://catgroomerscanada.ca/listings/toilettage-sunshine-spa-canin-et-soins-f-lins-richelieu-qc-232/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage Sunshine - Spa canin et soins félins","description":"Toilettage Sunshine - Spa canin et soins félins is a cat grooming listing in Richelieu, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for low-stress handling. Helpful details include 4.9-star Google rating from 131 reviews, credit cards, debit cards, tap/mobile payments. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-sunshine-spa-canin-et-soins-f-lins-richelieu-qc-232/","telephone":"+1 450-684-8889","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2JwuWGZzHHk_tLL49gFKhSJfZ_EbQ2PF10PBOPg4-N0l7K5CCQl5OzRtwfYllVGCL442KX3afRFjdkwGFPVq8zhYs0D_J7hp7qXzh4RfJ_K9_0AuTEp-9EvPhhDviSHNjp6Y=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1221 Chemin des Patriotes","addressLocality":"Richelieu","addressRegion":"QC","postalCode":"J3L 5H2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4388861","longitude":"-73.2459876"},"areaServed":"Richelieu, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":131,"bestRating":5,"worstRating":1},"sameAs":["http://toilettagesunshine.blogspot.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

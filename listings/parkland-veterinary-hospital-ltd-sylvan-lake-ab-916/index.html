@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Sylvan Lake","item":"https://catgroomerscanada.ca/cities/sylvan-lake-ab/"},{"@type":"ListItem","position":4,"name":"Parkland Veterinary Hospital Ltd","item":"https://catgroomerscanada.ca/listings/parkland-veterinary-hospital-ltd-sylvan-lake-ab-916/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Parkland Veterinary Hospital Ltd","description":"Parkland Veterinary Hospital Ltd is a cat grooming listing in Sylvan Lake, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, kitten grooming, low-stress handling. Helpful details include 4.7-star Google rating from 246 reviews, online booking or appointment links, weekend hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the.","url":"https://catgroomerscanada.ca/listings/parkland-veterinary-hospital-ltd-sylvan-lake-ab-916/","telephone":"+1 587-797-3044","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfHuJ45ZEeX01-LuqCrdXWr0hHDvPSajXSZaFdqwM6luZ6bICQ5pTzClS25DRpb8rpFv5WOcifftE9qgHwedTAMSRiBvbaLgrXhquiFgNFXe78tQTVy8YCPKWQ1xyeyce6qrGhxw=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4 Cuendet Ind. Wy #101","addressLocality":"Sylvan Lake","addressRegion":"AB","postalCode":"T4S 2J7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"52.3117137","longitude":"-114.0726871"},"areaServed":"Sylvan Lake, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.7,"reviewCount":246,"bestRating":5,"worstRating":1},"sameAs":["http://www.parklandvet.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

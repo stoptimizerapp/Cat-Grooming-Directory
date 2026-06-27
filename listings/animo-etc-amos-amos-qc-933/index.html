@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Amos","item":"https://catgroomerscanada.ca/cities/amos-qc/"},{"@type":"ListItem","position":4,"name":"Animo etc Amos","item":"https://catgroomerscanada.ca/listings/animo-etc-amos-amos-qc-933/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Animo etc Amos","description":"Animo etc Amos is a cat grooming listing in Amos, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet supply store services with cat-grooming relevance. Helpful details include 4.5-star Google rating from 8 reviews, weekend hours, evening hours, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/animo-etc-amos-amos-qc-933/","telephone":"+1 873-728-1300","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzA-aZyKbaV9DwyS4FgQdSvdrn4um7va2yU8Q7yeM-Gu3bjhW3S9sw30pAMIMiyJ0rsysxx0lgJuaSfFddHOgyuNBDlE_vhpi1o0JSPrKI5WiwH8hn8LwmlNKkdR_ny6CA1Q8REg=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"63 1re Avenue E","addressLocality":"Amos","addressRegion":"QC","postalCode":"J9T 1H2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"48.5721087","longitude":"-78.1139418"},"areaServed":"Amos, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":8,"bestRating":5,"worstRating":1},"sameAs":["https://animoetc.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"British Columbia","item":"https://catgroomerscanada.ca/provinces/bc/"},{"@type":"ListItem","position":3,"name":"Delta","item":"https://catgroomerscanada.ca/cities/delta-bc/"},{"@type":"ListItem","position":4,"name":"Studio One Pet Grooming","item":"https://catgroomerscanada.ca/listings/studio-one-pet-grooming-delta-bc-109/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Studio One Pet Grooming","description":"Studio One Pet Grooming is a cat grooming listing in Delta, BC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, deshedding / brush-out. Helpful details include 5-star Google rating from 24 reviews, weekend hours, wheelchair-accessible parking, credit cards, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/studio-one-pet-grooming-delta-bc-109/","telephone":"+1 604-943-7812","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGELBzyHbdE9hV57Awph7cXU7hSgrH-HD41d9bp4fzlunfKXLKCfu4BU3LIwa4uodiPEMftbW14n3Xp2NYZlDIatUDhnM-3Qf3hBKg1kJ8PV5jZi3QgWCc4Qi8fjnbMqOhj8SPViQ=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4814 Haviland St","addressLocality":"Delta","addressRegion":"BC","postalCode":"V4K 3V3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.0904137","longitude":"-123.0837936"},"areaServed":"Delta, BC","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":24,"bestRating":5,"worstRating":1},"sameAs":["http://www.studioonegrooming.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

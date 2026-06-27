@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"New Brunswick","item":"https://catgroomerscanada.ca/provinces/nb/"},{"@type":"ListItem","position":3,"name":"Fredericton","item":"https://catgroomerscanada.ca/cities/fredericton-nb/"},{"@type":"ListItem","position":4,"name":"Grooming Tails Pet Salon","item":"https://catgroomerscanada.ca/listings/grooming-tails-pet-salon-fredericton-nb-541/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Grooming Tails Pet Salon","description":"Grooming Tails Pet Salon is a cat grooming listing in Fredericton, NB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for cat bath, nail trim, haircut / coat trim, dematting, mobile grooming. Helpful details include 4.9-star Google rating from 486 reviews, online booking or appointment links, weekend hours, onsite services, credit cards. Use the listing to call to.","url":"https://catgroomerscanada.ca/listings/grooming-tails-pet-salon-fredericton-nb-541/","telephone":"+1 506-472-6933","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAXDTTvB7GeCip-5BQoICJ1yehSiEzUade_291JPLERk8GBF_u0s3gS0gQFdWXDSkM7ZB0B_wGWF16P7WRcxSLm506KfwMlneBcffZ5SSLaBSMkX1LkM04rqDKUUOhUOiu2DvF=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"567 St Marys St","addressLocality":"Fredericton","addressRegion":"NB","postalCode":"E3A 8H5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.98569","longitude":"-66.6330247"},"areaServed":"Fredericton, NB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":486,"bestRating":5,"worstRating":1},"sameAs":["http://www.groomingtails.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

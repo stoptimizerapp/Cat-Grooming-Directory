@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Lasalle","item":"https://catgroomerscanada.ca/cities/lasalle-qc/"},{"@type":"ListItem","position":4,"name":"Idée Fixe","item":"https://catgroomerscanada.ca/listings/id-e-fixe-lasalle-qc-458/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Idée Fixe","description":"Idée Fixe is a cat grooming listing in Lasalle, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.5-star Google rating from 72 reviews, weekend hours. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/id-e-fixe-lasalle-qc-458/","telephone":"+1 438-886-2320","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtHbYJIokLwYWzWtP3mIuJHSXAAJBZPWBj2w6GKqJ1oE5CvtTg32PdQ6gqLkoxw6nYDC3HilNRnaf3l8VfB_MNcr1or9_f-DEIG-MSwY2lr9VYrpCdAENzc7XBEy47kjXWQJA=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"7556 Rue Centrale","addressLocality":"Lasalle","addressRegion":"QC","postalCode":"H8P 1K3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4336345","longitude":"-73.5968525"},"areaServed":"Lasalle, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":72,"bestRating":5,"worstRating":1},"sameAs":["http://www.ideefixe.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

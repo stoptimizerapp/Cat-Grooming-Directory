@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"British Columbia","item":"https://catgroomerscanada.ca/provinces/bc/"},{"@type":"ListItem","position":3,"name":"Penticton","item":"https://catgroomerscanada.ca/cities/penticton-bc/"},{"@type":"ListItem","position":4,"name":"The Feedway Pet Grooming","item":"https://catgroomerscanada.ca/listings/the-feedway-pet-grooming-penticton-bc-540/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"The Feedway Pet Grooming","description":"The Feedway Pet Grooming is a cat grooming listing in Penticton, BC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, dematting. Helpful details include 4.7-star Google rating from 27 reviews, onsite services, wheelchair-accessible parking, credit cards, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/the-feedway-pet-grooming-penticton-bc-540/","telephone":"+1 250-442-1848","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGTKagpffohIMdfhpZCzEiNbMT94qf_DyZr1DrUR_2fyANPHvXYwNhH_MczYK9UKQv2ieo_aipmhwVwXDxLD4r2ZOQUBIfcOHuWzNFjgkaDoWBik9PA3JYizeojCs2Xbs2qjW6R=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"595 Carmi Ave","addressLocality":"Penticton","addressRegion":"BC","postalCode":"V2A 3G7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.4828773","longitude":"-119.5775681"},"areaServed":"Penticton, BC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.7,"reviewCount":27,"bestRating":5,"worstRating":1},"sameAs":["https://www.thefeedway.com/grooming/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

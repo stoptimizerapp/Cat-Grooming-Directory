@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"British Columbia","item":"https://catgroomerscanada.ca/provinces/bc/"},{"@type":"ListItem","position":3,"name":"Vancouver","item":"https://catgroomerscanada.ca/cities/vancouver-bc/"},{"@type":"ListItem","position":4,"name":"Discover Dogs","item":"https://catgroomerscanada.ca/listings/discover-dogs-vancouver-bc-92/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Discover Dogs","description":"Discover Dogs is a cat grooming listing in Vancouver, BC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, dematting. Helpful details include 4.9-star Google rating from 59 reviews, weekend hours, evening hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/discover-dogs-vancouver-bc-92/","telephone":"+1 604-428-3647","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEg6-1KpUO3voEkJEvG40BrdIBBjAkX9XbAVImTzareYlpRbDbj5dvjxM6NJuChKnpye36SrZas6q_CNx1Sv-jay5_7A8SU4r5x8dAVN5RsGZj3iZqqnw41Xl5c7UWI3L6XbrvILSSC18nC=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"386 W 8th Ave","addressLocality":"Vancouver","addressRegion":"BC","postalCode":"V5Y 3X2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.2637855","longitude":"-123.1124134"},"areaServed":"Vancouver, BC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":59,"bestRating":5,"worstRating":1},"sameAs":["https://discoverdogs.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

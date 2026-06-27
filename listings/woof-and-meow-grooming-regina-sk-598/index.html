@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Saskatchewan","item":"https://catgroomerscanada.ca/provinces/sk/"},{"@type":"ListItem","position":3,"name":"Regina","item":"https://catgroomerscanada.ca/cities/regina-sk/"},{"@type":"ListItem","position":4,"name":"Woof & Meow Grooming","item":"https://catgroomerscanada.ca/listings/woof-and-meow-grooming-regina-sk-598/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Woof & Meow Grooming","description":"Woof & Meow Grooming is a cat grooming listing in Regina, SK on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 5-star Google rating from 2 reviews, online booking or appointment links, weekend hours. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/woof-and-meow-grooming-regina-sk-598/","telephone":"+1 639-560-9663","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0-BTwdSgzeDrotttHRixaVy4NEINfeGs9zh_p_f6y2VMeoMKFXjVzSkJLttqHge9CusSo8CXw5G3gR6TmpBNnA6W2xmyeXbTg_MisPE5rYTON2uw-6wLROlKU3XAIaKVyJ5EsnlF6m1b-=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"2928 Grant Rd","addressLocality":"Regina","addressRegion":"SK","postalCode":"S4S 5G4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"50.4016109","longitude":"-104.6035659"},"areaServed":"Regina, SK","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":2,"bestRating":5,"worstRating":1},"sameAs":["https://wmgrooming.ca/contact.php"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

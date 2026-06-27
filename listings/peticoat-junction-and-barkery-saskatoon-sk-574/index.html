@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Saskatchewan","item":"https://catgroomerscanada.ca/provinces/sk/"},{"@type":"ListItem","position":3,"name":"Saskatoon","item":"https://catgroomerscanada.ca/cities/saskatoon-sk/"},{"@type":"ListItem","position":4,"name":"Peticoat Junction & Barkery","item":"https://catgroomerscanada.ca/listings/peticoat-junction-and-barkery-saskatoon-sk-574/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Peticoat Junction & Barkery","description":"Peticoat Junction & Barkery is a cat grooming listing in Saskatoon, SK on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, nail trim. Helpful details include 4.6-star Google rating from 347 reviews, online booking or appointment links, weekend hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/peticoat-junction-and-barkery-saskatoon-sk-574/","telephone":"+1 306-384-7387","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr_uFVdv_AhKS0eCsgi5MyOiIKCJRFkz75uf_e90-ExUW5vynp0UVrj41QY8aODJEMm6CVUMcthr95Ess0AFik-N0VmIw77fw4vNxg53paLrVMToCcMoySmfxwYre7odBvZVX2=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"110 Wedge Rd #6","addressLocality":"Saskatoon","addressRegion":"SK","postalCode":"S7L 6Y4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"52.145488","longitude":"-106.725942"},"areaServed":"Saskatoon, SK","aggregateRating":{"@type":"AggregateRating","ratingValue":4.6,"reviewCount":347,"bestRating":5,"worstRating":1},"sameAs":["http://www.peticoat.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

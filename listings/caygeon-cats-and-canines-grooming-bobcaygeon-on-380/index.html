@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Bobcaygeon","item":"https://catgroomerscanada.ca/cities/bobcaygeon-on/"},{"@type":"ListItem","position":4,"name":"Caygeon Cats & Canines Grooming","item":"https://catgroomerscanada.ca/listings/caygeon-cats-and-canines-grooming-bobcaygeon-on-380/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Caygeon Cats & Canines Grooming","description":"Caygeon Cats & Canines Grooming is a cat grooming listing in Bobcaygeon, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, deshedding / brush-out. Helpful details include 4.4-star Google rating from 25 reviews, online booking or appointment links. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/caygeon-cats-and-canines-grooming-bobcaygeon-on-380/","telephone":"+1 705-731-0298","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbAG4qYCQ8maNF1eklO--8qXrHNIQACezv9H9Qn6HkfTexQDNIqXHSAkuo82J_DPngGiPnLo8hqW23ms0wNP9gBESiVTI3ju0rMCECpoAdipoV-FljrHjaNzumdyrxRYPieXwR=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"797 Peterborough County Rd 36","addressLocality":"Bobcaygeon","addressRegion":"ON","postalCode":"K0M 1A0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"44.5875448","longitude":"-78.49375"},"areaServed":"Bobcaygeon, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":25,"bestRating":5,"worstRating":1},"sameAs":["https://www.caygeoncanines.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

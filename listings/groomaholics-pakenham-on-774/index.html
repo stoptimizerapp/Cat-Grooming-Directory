@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Pakenham","item":"https://catgroomerscanada.ca/cities/pakenham-on/"},{"@type":"ListItem","position":4,"name":"Groomaholics","item":"https://catgroomerscanada.ca/listings/groomaholics-pakenham-on-774/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Groomaholics","description":"Groomaholics is a cat grooming listing in Pakenham, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, low-stress handling. Helpful details include 4.9-star Google rating from 7 reviews, weekend hours, wheelchair-accessible parking, credit cards, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/groomaholics-pakenham-on-774/","telephone":"+1 613-624-9292","image":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rSgKp1SKxjZq1XMpkJwxJw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=300.5679&pitch=0&thumbfov=100","address":{"@type":"PostalAddress","streetAddress":"2545 County Rd 29","addressLocality":"Pakenham","addressRegion":"ON","postalCode":"K0A 2X0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.3328962","longitude":"-76.29066"},"areaServed":"Pakenham, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":7,"bestRating":5,"worstRating":1},"sameAs":["http://www.groomaholics.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

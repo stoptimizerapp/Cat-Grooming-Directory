@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Oakville","item":"https://catgroomerscanada.ca/cities/oakville-on/"},{"@type":"ListItem","position":4,"name":"Petz Kingdom Oakville","item":"https://catgroomerscanada.ca/listings/petz-kingdom-oakville-oakville-on-711/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Petz Kingdom Oakville","description":"Petz Kingdom Oakville is a cat grooming listing in Oakville, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.9-star Google rating from 27 reviews, online booking or appointment links, weekend hours, wheelchair-accessible parking, credit cards. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/petz-kingdom-oakville-oakville-on-711/","telephone":"+1 437-808-6661","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8FIhaTkm9jrsm3zCRVgpgKoj5hm3DPkf_N7QjBV8VjIUSBxh_oP1BafSo_Zic4g9A_Hn8RysZpfxiA_WyaqUKjG22HOf31Ki_W0lM0U3n3csoPCOrb32xW4MLE2uxszPzgKio9Vj0RZIp=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"77 Burnhamthorpe Rd E","addressLocality":"Oakville","addressRegion":"ON","postalCode":"L6H 3R2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.4954191","longitude":"-79.7453979"},"areaServed":"Oakville, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":27,"bestRating":5,"worstRating":1},"sameAs":["https://oakvillepetzkingdom.myonlineappointment.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

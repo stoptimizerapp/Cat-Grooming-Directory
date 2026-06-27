@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"British Columbia","item":"https://catgroomerscanada.ca/provinces/bc/"},{"@type":"ListItem","position":3,"name":"Kelowna","item":"https://catgroomerscanada.ca/cities/kelowna-bc/"},{"@type":"ListItem","position":4,"name":"Kelowna Paw Spa","item":"https://catgroomerscanada.ca/listings/kelowna-paw-spa-kelowna-bc-157/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kelowna Paw Spa","description":"Kelowna Paw Spa is a cat grooming listing in Kelowna, BC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, dematting, deshedding / brush-out. Helpful details include 4.8-star Google rating from 135 reviews, online booking or appointment links, onsite services, credit cards, debit cards. Use the listing to call to confirm services, visit the website, request an.","url":"https://catgroomerscanada.ca/listings/kelowna-paw-spa-kelowna-bc-157/","telephone":"+1 250-878-4542","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfd7D8KKKqwfxSth5KHAYLj8MBdR7H7DR7hSeleVprJkK2C30W86oSqnS53TbVkFmpypwzeYiOp7SeCp0HncXaNsyIzdmG8wgda9fTo5F7FXHKpubJoBQTzNwpiTq5xtQIOAHk38aMIt-I=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1574 Harvey Ave","addressLocality":"Kelowna","addressRegion":"BC","postalCode":"V1Y 6K7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.8824739","longitude":"-119.4637975"},"areaServed":"Kelowna, BC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":135,"bestRating":5,"worstRating":1},"sameAs":["https://kelownapawspa.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

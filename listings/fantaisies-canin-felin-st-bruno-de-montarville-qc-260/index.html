@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"St-Bruno-de-Montarville","item":"https://catgroomerscanada.ca/cities/st-bruno-de-montarville-qc/"},{"@type":"ListItem","position":4,"name":"Fantaisies Canin Felin","item":"https://catgroomerscanada.ca/listings/fantaisies-canin-felin-st-bruno-de-montarville-qc-260/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Fantaisies Canin Felin","description":"Fantaisies Canin Felin is a cat grooming listing in St-Bruno-de-Montarville, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.4-star Google rating from 96 reviews, weekend hours, onsite services, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/fantaisies-canin-felin-st-bruno-de-montarville-qc-260/","telephone":"+1 450-905-1262","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHZTvrND_ooi-NuN95vLCn2OLiOAW6Yezb-Jur2ZWbQfQ5t_hvyMxF9-IFHF2xL8vAAQ5zegJrsnRFOCYFkx2eU7dDAHipJqJiba8ABg3w5fDuDnOfJtqytvh0Ss9OylrmZI3G1Q=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"670 Mnt Montarville","addressLocality":"St-Bruno-de-Montarville","addressRegion":"QC","postalCode":"J3V 6B1","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.5410588","longitude":"-73.3588512"},"areaServed":"St-Bruno-de-Montarville, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":96,"bestRating":5,"worstRating":1},"sameAs":["https://fantaisiescaninfelin.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

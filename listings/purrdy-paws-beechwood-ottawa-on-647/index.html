@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Ottawa","item":"https://catgroomerscanada.ca/cities/ottawa-on/"},{"@type":"ListItem","position":4,"name":"Purrdy Paws Beechwood","item":"https://catgroomerscanada.ca/listings/purrdy-paws-beechwood-ottawa-on-647/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Purrdy Paws Beechwood","description":"Purrdy Paws Beechwood is a cat grooming listing in Ottawa, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.8-star Google rating from 502 reviews, weekend hours, evening hours, onsite services, credit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/purrdy-paws-beechwood-ottawa-on-647/","telephone":"+1 613-882-7077","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQdnFQf55JO5Yza8bdTckLisyY7ZlSTY2eAd25op0L0yyS22UHT2T21HIkL2jKRWdYr6VRynDrsk-3sUF_zuByhjGlxyT2OqUIlhFkxlH8TQWL2bFGsbEK2sc6O14vvEX7_h6TGA=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"121 Beechwood Ave.","addressLocality":"Ottawa","addressRegion":"ON","postalCode":"K1M 1L5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4417955","longitude":"-75.6725852"},"areaServed":"Ottawa, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":502,"bestRating":5,"worstRating":1},"sameAs":["https://purrdypawsspa.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

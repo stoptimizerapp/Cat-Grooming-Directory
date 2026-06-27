@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Nova Scotia","item":"https://catgroomerscanada.ca/provinces/ns/"},{"@type":"ListItem","position":3,"name":"New Germany","item":"https://catgroomerscanada.ca/cities/new-germany-ns/"},{"@type":"ListItem","position":4,"name":"Swift Clipps Grooming","item":"https://catgroomerscanada.ca/listings/swift-clipps-grooming-new-germany-ns-404/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Swift Clipps Grooming","description":"Swift Clipps Grooming is a cat grooming listing in New Germany, NS on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, low-stress handling. Helpful details include 5-star Google rating from 11 reviews, online booking or appointment links, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/swift-clipps-grooming-new-germany-ns-404/","telephone":"+1 902-523-4323","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGzKb50N-JPcIyk4j2Yux_yjKxDjvN61zmmEoMcKzZIhx8VhyEfGJYVSvzw4qyJ0aH4xpZtMrkfllKfWbkYo6WJoscSyKWXb4sbm3V8sKlx3PHmzuypXAK2xzCZT0W4J5DXyUlq=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"23 Spruce Dr","addressLocality":"New Germany","addressRegion":"NS","postalCode":"B0R 1E0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"44.47663","longitude":"-64.74527"},"areaServed":"New Germany, NS","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":11,"bestRating":5,"worstRating":1},"sameAs":["https://www.swiftclipps.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Brighton","item":"https://catgroomerscanada.ca/cities/brighton-on/"},{"@type":"ListItem","position":4,"name":"Northumberland Grooming Co. Brighton","item":"https://catgroomerscanada.ca/listings/northumberland-grooming-co-brighton-brighton-on-565/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Northumberland Grooming Co. Brighton","description":"Northumberland Grooming Co. Brighton is a cat grooming listing in Brighton, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for nail trim. Helpful details include 5-star Google rating from 15 reviews, online booking or appointment links, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/northumberland-grooming-co-brighton-brighton-on-565/","telephone":"+1 905-269-9882","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAUUB6G4zbX6_uP1uPt20OJyuIe78Lk_aQcqr4a6f1I3Gm-kb7VDbffTXGiFfU8ul5cto7kH-xwH30ld_umpd-3WOVY2naMJbPYU5S3v6AD3JnYxFfhUNb3rZ0NPsOAkRVNfFDO2lNUWk=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"215 Lisgar St","addressLocality":"Brighton","addressRegion":"ON","postalCode":"K0K 1H0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"44.0616254","longitude":"-77.6852675"},"areaServed":"Brighton, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":15,"bestRating":5,"worstRating":1},"sameAs":["https://www.northumberlandgrooming.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

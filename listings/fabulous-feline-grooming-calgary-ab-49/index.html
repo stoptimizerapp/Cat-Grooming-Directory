@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Calgary","item":"https://catgroomerscanada.ca/cities/calgary-ab/"},{"@type":"ListItem","position":4,"name":"Fabulous Feline Grooming","item":"https://catgroomerscanada.ca/listings/fabulous-feline-grooming-calgary-ab-49/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Fabulous Feline Grooming","description":"Fabulous Feline Grooming is a cat grooming listing in Calgary, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, lion cut, haircut / coat trim. Helpful details include 4.9-star Google rating from 114 reviews, online booking or appointment links, weekend hours, evening hours, credit cards. Use the listing to call to confirm services, visit the website, request an.","url":"https://catgroomerscanada.ca/listings/fabulous-feline-grooming-calgary-ab-49/","telephone":"+1 403-971-5790","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaBPUzfOHT53T4jm32gLU2LF4VMwDS4sJ2bB2n3a0P2A3timLC59ZLSy9837HltkPlbUtvmKKUv-ZJfNHRrQ7B70LWKjbs6Qg80TYRbiwgX0RrreQJC7qx2BJboB3-t6xeoHgiM3LQY6-1=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4711 17 Ave SE","addressLocality":"Calgary","addressRegion":"AB","postalCode":"T2A 0T9","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"51.0374799","longitude":"-113.9668408"},"areaServed":"Calgary, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":114,"bestRating":5,"worstRating":1},"sameAs":["https://calgarycatgroomer.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

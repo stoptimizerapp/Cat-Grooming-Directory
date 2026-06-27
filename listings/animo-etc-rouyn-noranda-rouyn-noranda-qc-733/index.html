@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Rouyn-Noranda","item":"https://catgroomerscanada.ca/cities/rouyn-noranda-qc/"},{"@type":"ListItem","position":4,"name":"Animo etc Rouyn-Noranda","item":"https://catgroomerscanada.ca/listings/animo-etc-rouyn-noranda-rouyn-noranda-qc-733/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Animo etc Rouyn-Noranda","description":"Animo etc Rouyn-Noranda is a cat grooming listing in Rouyn-Noranda, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.6-star Google rating from 37 reviews, weekend hours, evening hours, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/animo-etc-rouyn-noranda-rouyn-noranda-qc-733/","telephone":"+1 819-917-3533","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-xpyT-hyhQuTBjj1V9TXvGneIQ5re8QbXq4gWN3468ByLO7N4_-y4dCL7YDP-LdJtCTJ57QMNaz_bAVzEtsULIqSpzSgxgJHbenRqhvrSBxsNvh3IVrn3NmeCDGLHvrSsCPKM=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"833 Av. Larivière","addressLocality":"Rouyn-Noranda","addressRegion":"QC","postalCode":"J9X 4K3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"48.225841","longitude":"-79.0028178"},"areaServed":"Rouyn-Noranda, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.6,"reviewCount":37,"bestRating":5,"worstRating":1},"sameAs":["https://animoetc.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

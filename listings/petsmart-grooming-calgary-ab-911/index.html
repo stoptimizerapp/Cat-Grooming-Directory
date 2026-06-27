@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Calgary","item":"https://catgroomerscanada.ca/cities/calgary-ab/"},{"@type":"ListItem","position":4,"name":"PetSmart Grooming","item":"https://catgroomerscanada.ca/listings/petsmart-grooming-calgary-ab-911/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"PetSmart Grooming","description":"PetSmart Grooming is a cat grooming listing in Calgary, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, nail trim. Helpful details include 3.2-star Google rating from 15 reviews, weekend hours, evening hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/petsmart-grooming-calgary-ab-911/","telephone":"+1 403-250-1526","image":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BHd1e2JO0D64peOcwOG0qA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=25.553991&pitch=0&thumbfov=100","address":{"@type":"PostalAddress","streetAddress":"3221 Sunridge Way NE #600","addressLocality":"Calgary","addressRegion":"AB","postalCode":"T1Y 7M4","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"51.0687447","longitude":"-113.9908104"},"areaServed":"Calgary, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":3.2,"reviewCount":15,"bestRating":5,"worstRating":1},"sameAs":["https://stores.petsmart.ca/ab/calgary/ne-calgary/grooming%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle-my-business"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

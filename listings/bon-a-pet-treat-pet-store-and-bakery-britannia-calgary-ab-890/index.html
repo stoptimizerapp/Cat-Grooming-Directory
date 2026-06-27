@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Calgary","item":"https://catgroomerscanada.ca/cities/calgary-ab/"},{"@type":"ListItem","position":4,"name":"Bon A-Pet-Treat! Pet Store & Bakery - Britannia","item":"https://catgroomerscanada.ca/listings/bon-a-pet-treat-pet-store-and-bakery-britannia-calgary-ab-890/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Bon A-Pet-Treat! Pet Store & Bakery - Britannia","description":"Bon A-Pet-Treat! Pet Store & Bakery - Britannia is a cat grooming listing in Calgary, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet supply store services with cat-grooming relevance and signals for cat bath, nail trim, kitten grooming. Helpful details include 4.7-star Google rating from 72 reviews, weekend hours, evening hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/bon-a-pet-treat-pet-store-and-bakery-britannia-calgary-ab-890/","telephone":"+1 403-455-7389","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdVGtlZtR_BzGmqroq2efjzk3ZK4kiywQKkWGVKwlfbTaAAL6JDTBO9o3riqGzSSs57pHKrsMMAwzl9XRfnNTbrC7ns6km8w5p53dQhTU6KI7lrAEZsvzJ0WRtOZzeWoFrZAeu=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"815 49 Ave SW","addressLocality":"Calgary","addressRegion":"AB","postalCode":"T2S 1G8","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"51.0094293","longitude":"-114.0824818"},"areaServed":"Calgary, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.7,"reviewCount":72,"bestRating":5,"worstRating":1},"sameAs":["http://www.petbakery.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

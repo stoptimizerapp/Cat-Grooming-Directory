@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Longueuil","item":"https://catgroomerscanada.ca/cities/longueuil-qc/"},{"@type":"ListItem","position":4,"name":"Canin Feline Longueuil","item":"https://catgroomerscanada.ca/listings/canin-feline-longueuil-longueuil-qc-282/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Canin Feline Longueuil","description":"Canin Feline Longueuil is a cat grooming listing in Longueuil, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat-specific branding. Helpful details include 4.4-star Google rating from 141 reviews, weekend hours, wheelchair-accessible entrance, wheelchair-accessible parking, credit cards. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/canin-feline-longueuil-longueuil-qc-282/","telephone":"+1 450-468-2494","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEaX_ILBtdRF1KvjSKSzp9kIkDIHF7YHDUK__aZzvK6LyvCCwUTtBRl_9KQYJvISumPSoV-PoghuLCCjk5oDwwl35CA9qV0bEasSGsl8xROcLPqlDEyzSQqAMZbQI9KMbw8ATVk=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1514 Blvd Jacques-Cartier E","addressLocality":"Longueuil","addressRegion":"QC","postalCode":"J4M 1B3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.5385026","longitude":"-73.4560167"},"areaServed":"Longueuil, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":141,"bestRating":5,"worstRating":1}}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

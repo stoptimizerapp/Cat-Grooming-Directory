@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Levis","item":"https://catgroomerscanada.ca/cities/levis-qc/"},{"@type":"ListItem","position":4,"name":"Atout Poils","item":"https://catgroomerscanada.ca/listings/atout-poils-levis-qc-624/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Atout Poils","description":"Atout Poils is a cat grooming listing in Levis, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 5-star Google rating from 93 reviews, debit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/atout-poils-levis-qc-624/","telephone":"+1 418-838-4322","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDmsj5gHOeNma5Ym-WJWxFw4xDsc-qsGj5uVz7_ZC0UugzR4mE7XE3YXAQLWe5G7H_zA5sRGS_Hh2S181dmiRlAt935AFYc5lUIWtuC6lO7_euzUBZEZA0Q-WpXIXbyIKe3UIiSQ=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4081 Rue des Turquoises","addressLocality":"Levis","addressRegion":"QC","postalCode":"G6W 7E2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"46.7754661","longitude":"-71.1920096"},"areaServed":"Levis, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":93,"bestRating":5,"worstRating":1},"sameAs":["http://www.atoutpoils.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

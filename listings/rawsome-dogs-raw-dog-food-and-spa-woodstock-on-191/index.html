@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Woodstock","item":"https://catgroomerscanada.ca/cities/woodstock-on/"},{"@type":"ListItem","position":4,"name":"Rawsome Dogs- Raw Dog Food and Spa","item":"https://catgroomerscanada.ca/listings/rawsome-dogs-raw-dog-food-and-spa-woodstock-on-191/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Rawsome Dogs- Raw Dog Food and Spa","description":"Rawsome Dogs- Raw Dog Food and Spa is a cat grooming listing in Woodstock, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.8-star Google rating from 179 reviews, weekend hours, onsite services, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/rawsome-dogs-raw-dog-food-and-spa-woodstock-on-191/","telephone":"+1 519-421-9305","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9OTb4YXBEMEA3XbTf9h2LZJX7sLq4mfF4aNAnWrK8gbBr4v3qtTvMGxFVwOosvBocZmmeOAHXL_Xn2gbdebn4tAYq5TQmKYga5xtrIbOSY__TyQHO3UzxrME4dmrM2IokkMRCtw=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1057 Parkinson Rd #7","addressLocality":"Woodstock","addressRegion":"ON","postalCode":"N4S 7W3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.1236305","longitude":"-80.7195205"},"areaServed":"Woodstock, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":179,"bestRating":5,"worstRating":1},"sameAs":["http://www.rawsomedogs.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

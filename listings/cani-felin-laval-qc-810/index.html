@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Laval","item":"https://catgroomerscanada.ca/cities/laval-qc/"},{"@type":"ListItem","position":4,"name":"Cani Felin","item":"https://catgroomerscanada.ca/listings/cani-felin-laval-qc-810/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cani Felin","description":"Cani Felin is a cat grooming listing in Laval, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include wheelchair-accessible parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/cani-felin-laval-qc-810/","telephone":"+1 450-933-4168","image":"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OZUwwRYFbwOy0Vv0yGV8dw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=239.98541&pitch=0&thumbfov=100","address":{"@type":"PostalAddress","streetAddress":"466 Boulevard des Laurentides","addressLocality":"Laval","addressRegion":"QC","postalCode":"H7G 2V1","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.569318","longitude":"-73.6913592"},"areaServed":"Laval, QC"}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Toronto","item":"https://catgroomerscanada.ca/cities/toronto-on/"},{"@type":"ListItem","position":4,"name":"WAGSUP Fort York City Place","item":"https://catgroomerscanada.ca/listings/wagsup-fort-york-city-place-toronto-on-434/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"WAGSUP Fort York City Place","description":"WAGSUP Fort York City Place is a cat grooming listing in Toronto, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for nail trim. Helpful details include 4.4-star Google rating from 244 reviews, online booking or appointment links, weekend hours, evening hours, onsite services. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/wagsup-fort-york-city-place-toronto-on-434/","telephone":"+1 647-746-7174","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3ns026d9LkXT8LQUGZoqKdHfyPT53s4WiVgugr5mOpSsNRzgUS37pC2iH6Rxg8cxOxYj02iahYWH_DbwxfyIttIFIZ7conUO7pFxtzOt0Qy3B9aAunXp1ZisRVb1CvD_lknGa=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"11 Fort York Blvd","addressLocality":"Toronto","addressRegion":"ON","postalCode":"M5V 3Y7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.6401532","longitude":"-79.3937218"},"areaServed":"Toronto, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":244,"bestRating":5,"worstRating":1},"sameAs":["http://www.wagsupgroom.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

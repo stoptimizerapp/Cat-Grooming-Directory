@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Sherbrooke","item":"https://catgroomerscanada.ca/cities/sherbrooke-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage au Spaw","item":"https://catgroomerscanada.ca/listings/toilettage-au-spaw-sherbrooke-qc-668/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage au Spaw","description":"Toilettage au Spaw is a cat grooming listing in Sherbrooke, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.9-star Google rating from 16 reviews, weekend hours. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-au-spaw-sherbrooke-qc-668/","telephone":"+1 819-200-2720","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv6DEQcSrtLGq11EOikwhzP0y6Q5zS-HBEyu_ZfkWR1MlroxB7z6zQJWIGsNyQmC_ksLzqI9OQ0KlHXkA4xwIfm5DokRtMKTM-tHmHHsM52gxBgaLgH4L1XzYGSxuI1kDfh7Ds=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"3171 Rue King E","addressLocality":"Sherbrooke","addressRegion":"QC","postalCode":"J1G 5J1","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4203318","longitude":"-71.8287223"},"areaServed":"Sherbrooke, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":16,"bestRating":5,"worstRating":1},"sameAs":["http://toilettageauspaw.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

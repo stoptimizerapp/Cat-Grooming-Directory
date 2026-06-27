@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Shannon","item":"https://catgroomerscanada.ca/cities/shannon-qc/"},{"@type":"ListItem","position":4,"name":"Le Chien Le Chat","item":"https://catgroomerscanada.ca/listings/le-chien-le-chat-shannon-qc-634/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Le Chien Le Chat","description":"Le Chien Le Chat is a cat grooming listing in Shannon, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/le-chien-le-chat-shannon-qc-634/","telephone":"+1 587-215-4080","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGp9r8cDxPLh317tlVs9oiAL233GTcHnWbAKpmMsih7zb098NgYLOreUiEx82Px4JErGhmpmpog7ldCMlm-pJhO3MZKJ0lBB0maeC9uQXbmfbTd7PXXksB9nmi6AKPpttAD8G3=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"279 Bd Jacques Cartier #3","addressLocality":"Shannon","addressRegion":"QC","postalCode":"G3S 1P2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"46.8690842","longitude":"-71.5249003"},"areaServed":"Shannon, QC"}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -18,6 +18,26 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -45,6 +65,9 @@
 <section class="section article"><div class="shell narrow"><p>Cat Groomers Canada does not ask visitors to create accounts. When you browse the site, ordinary technical data may be processed through hosting, security, analytics or diagnostic systems, including IP address, approximate location, browser type, device type, referring page, pages viewed, date and time of visit and error logs.</p>
 <h2>Contact and correction requests</h2>
 <p>If you email us about a listing correction, removal request or business update, we use the information you provide to review and respond to that request. This may include your name, email address, business name, listing URL and the corrected details you send.</p>
+<h2>Analytics</h2>
+<p>This site uses Firebase Analytics and Google Analytics to understand aggregate directory usage, such as pages visited, referring pages, device and browser information, approximate location, interaction events and visit timing. Analytics helps us improve city pages, listing quality, site speed and navigation.</p>
+<p>Google Analytics may use cookies or similar technologies to measure visits and events. You can limit analytics cookies through your browser settings or Google's available privacy controls.</p>
 <h2>Advertising and cookies</h2>
 <p>If advertising is enabled on this website, third-party vendors, including Google, may use cookies or similar technologies to serve, measure and improve ads based on a user's prior visits to this and other websites. Google's advertising cookies help Google and its partners serve ads to visitors. Visitors can manage or opt out of personalized advertising through Google's ad settings and browser cookie controls.</p>
 <p>Third-party ad technology providers may use cookies, web beacons or other identifiers to measure ad performance, prevent abuse, frequency-cap ads and personalize or limit advertising where permitted by law. Where consent is required, advertising features may be limited until consent choices are provided.</p>

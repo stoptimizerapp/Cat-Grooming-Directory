@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Sainte-Adèle","item":"https://catgroomerscanada.ca/cities/sainte-ad-le-qc/"},{"@type":"ListItem","position":4,"name":"Moulées du Nord","item":"https://catgroomerscanada.ca/listings/moul-es-du-nord-sainte-ad-le-qc-980/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Moulées du Nord","description":"Moulées du Nord is a cat grooming listing in Sainte-Adèle, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.6-star Google rating from 250 reviews, weekend hours, evening hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/moul-es-du-nord-sainte-ad-le-qc-980/","telephone":"+1 450-229-3030","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAG24FuIV1MR0Md0Dxoi0OFFHu7h3Rh3sVsNO1wT61fs5csSyEu8luhcWaaK9Bvl44WR8zslZNNkTp4yUnUIjXOqijkzGo_UHfHv3qO_tHLJCboBB7C1IiQml4NZzbu14r8HdpD_=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"459 Chem. Pierre Péladeau","addressLocality":"Sainte-Adèle","addressRegion":"QC","postalCode":"J8B 1S2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.9527782","longitude":"-74.1337711"},"areaServed":"Sainte-Adèle, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.6,"reviewCount":250,"bestRating":5,"worstRating":1},"sameAs":["https://mouleesdunord.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

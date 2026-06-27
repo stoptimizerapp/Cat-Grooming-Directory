@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Gloucester","item":"https://catgroomerscanada.ca/cities/gloucester-on/"},{"@type":"ListItem","position":4,"name":"Beacon Hill Fur Family Grooming and Training","item":"https://catgroomerscanada.ca/listings/beacon-hill-fur-family-grooming-and-training-gloucester-on-742/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Beacon Hill Fur Family Grooming and Training","description":"Beacon Hill Fur Family Grooming and Training is a cat grooming listing in Gloucester, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, nail trim. Helpful details include 4.8-star Google rating from 96 reviews, online booking or appointment links, weekend hours, onsite services, wheelchair-accessible entrance. Use the listing to call to confirm services, visit the website, request an.","url":"https://catgroomerscanada.ca/listings/beacon-hill-fur-family-grooming-and-training-gloucester-on-742/","telephone":"+1 613-618-8485","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfqmIfSDvttC9YO_gocASgVc8QzoDs_Qx6R7IUgadvAwxk5xtvbwGck0lPrK5TDSz562YBihyfUf654sGS4IpBTvqdBJzy_Ns7AqCYUof_uR3DXguwvWFz82GWRli5mivsR0iS=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"2200 Montréal Rd","addressLocality":"Gloucester","addressRegion":"ON","postalCode":"K1J 6M5","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4498525","longitude":"-75.5869088"},"areaServed":"Gloucester, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":96,"bestRating":5,"worstRating":1},"sameAs":["http://www.furfamilygroomingandtraining.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

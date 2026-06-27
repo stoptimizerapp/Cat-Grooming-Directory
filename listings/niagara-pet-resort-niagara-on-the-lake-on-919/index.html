@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Niagara-on-the-Lake","item":"https://catgroomerscanada.ca/cities/niagara-on-the-lake-on/"},{"@type":"ListItem","position":4,"name":"Niagara Pet Resort","item":"https://catgroomerscanada.ca/listings/niagara-pet-resort-niagara-on-the-lake-on-919/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Niagara Pet Resort","description":"Niagara Pet Resort is a cat grooming listing in Niagara-on-the-Lake, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet boarding service services with cat-grooming relevance and signals for low-stress handling. Helpful details include 4.8-star Google rating from 196 reviews, weekend hours, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/niagara-pet-resort-niagara-on-the-lake-on-919/","telephone":"+1 905-933-5255","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJSD0uu7A0-Cx2MhJquoxud7d9D5vq-LBtI73mHzmQRwWnRYBKt98Qgy3a_8ECktx7Q0OWpiO8t0kSFW2hJFQveVMfZ0dv7jNgZ7_e0fAQmNbvDJAGU1owd7UmujTwhw-lqo4e=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"657 Concession 6 Rd","addressLocality":"Niagara-on-the-Lake","addressRegion":"ON","postalCode":"L0S 1J0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.1780217","longitude":"-79.1344088"},"areaServed":"Niagara-on-the-Lake, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":196,"bestRating":5,"worstRating":1},"sameAs":["http://www.niagarapetresort.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

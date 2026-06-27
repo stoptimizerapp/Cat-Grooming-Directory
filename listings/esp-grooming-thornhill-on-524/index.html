@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Thornhill","item":"https://catgroomerscanada.ca/cities/thornhill-on/"},{"@type":"ListItem","position":4,"name":"Esp Grooming","item":"https://catgroomerscanada.ca/listings/esp-grooming-thornhill-on-524/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Esp Grooming","description":"Esp Grooming is a cat grooming listing in Thornhill, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.1-star Google rating from 53 reviews, online booking or appointment links, weekend hours, evening hours, onsite services. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/esp-grooming-thornhill-on-524/","telephone":"+1 905-771-7732","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwq00J_UJuQCfTEXPLUhRHa346OsAuFQbziyQOqYVb5wpAAWoO2V5B9y290hM2-2z6FTfRHlMHPVbkitbWtAk4xKuBzVBEjJ6CY3BpCf5x7BYY0JIlEpnZZr2t-IMUmoeefpG8=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"8 Essex Ave","addressLocality":"Thornhill","addressRegion":"ON","postalCode":"L3T 3Y9","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.8352508","longitude":"-79.4151193"},"areaServed":"Thornhill, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.1,"reviewCount":53,"bestRating":5,"worstRating":1},"sameAs":["http://www.espgrooming.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

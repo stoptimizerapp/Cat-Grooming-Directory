@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Spruce Grove","item":"https://catgroomerscanada.ca/cities/spruce-grove-ab/"},{"@type":"ListItem","position":4,"name":"Groom Room The","item":"https://catgroomerscanada.ca/listings/groom-room-the-spruce-grove-ab-39/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Groom Room The","description":"Groom Room The is a cat grooming listing in Spruce Grove, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 3.6-star Google rating from 123 reviews, weekend hours, onsite services, wheelchair-accessible parking, credit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/groom-room-the-spruce-grove-ab-39/","telephone":"+1 780-962-3447","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGgRVNDqoAshuMQK4d_2Tm9ujnw_TFWrud11DQ73cC4xMtg6x11m3lCIIeWwmwJ3RqzjvHiWPpIcgFUjq76cz9W8N6f_4_GAruqhfBJvOKV0aiqdPnB7Gc0cbyCTByGhnEKoenpQ=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"96 South Ave","addressLocality":"Spruce Grove","addressRegion":"AB","postalCode":"T7X 4G3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.5386408","longitude":"-113.9039244"},"areaServed":"Spruce Grove, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":3.6,"reviewCount":123,"bestRating":5,"worstRating":1},"sameAs":["https://groomroom.myonlineappointment.com/Contact"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

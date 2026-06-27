@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Edmonton","item":"https://catgroomerscanada.ca/cities/edmonton-ab/"},{"@type":"ListItem","position":4,"name":"Kitty Cuts","item":"https://catgroomerscanada.ca/listings/kitty-cuts-edmonton-ab-4/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kitty Cuts","description":"Kitty Cuts is a cat grooming listing in Edmonton, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat-specific branding. Helpful details include 5-star Google rating from 5 reviews, onsite services, on-site parking. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/kitty-cuts-edmonton-ab-4/","telephone":"+1 780-690-2899","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhLFBZ0ybpShAsHXSw2z84cWAJrHqb3o0RM8HfA8anF5HCtyHUweY8s_2CJ-suG5TkdNATpexcn_5zGVxia_BTwMGOq8eOmLDTv2-myDUapbgZ6dxzUlBbIKO9Fum4LU5uPxKNIRdi0u8i=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"12604 153 Ave NW #4","addressLocality":"Edmonton","addressRegion":"AB","postalCode":"T5X 4M7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.6173588","longitude":"-113.5384626"},"areaServed":"Edmonton, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":5.0,"reviewCount":5,"bestRating":5,"worstRating":1}}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

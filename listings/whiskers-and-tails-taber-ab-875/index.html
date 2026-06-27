@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Taber","item":"https://catgroomerscanada.ca/cities/taber-ab/"},{"@type":"ListItem","position":4,"name":"Whiskers and Tails","item":"https://catgroomerscanada.ca/listings/whiskers-and-tails-taber-ab-875/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Whiskers and Tails","description":"Whiskers and Tails is a cat grooming listing in Taber, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 3.3-star Google rating from 3 reviews. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/whiskers-and-tails-taber-ab-875/","telephone":"+1 587-220-6700","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_fNcS9--7gfhWoNWdeKDA415jQFQXJa7xWq_LCbCT9bLNf8TJNJ10pRe8ZaIdkRnd6AJMnVIPEPu0E9PX2w1Xxe6hshia48fZ4QCmDmdUxXeI6kiZeTgjGxz9Gp2G458XNwpfz4RbLE0z=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4601 55 Ave","addressLocality":"Taber","addressRegion":"AB","postalCode":"T1G 1G7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"49.7914218","longitude":"-112.1584098"},"areaServed":"Taber, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":3.3,"reviewCount":3,"bestRating":5,"worstRating":1}}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

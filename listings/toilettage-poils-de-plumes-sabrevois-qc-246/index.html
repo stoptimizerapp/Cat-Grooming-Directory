@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Sabrevois","item":"https://catgroomerscanada.ca/cities/sabrevois-qc/"},{"@type":"ListItem","position":4,"name":"Toilettage Poils de Plumes","item":"https://catgroomerscanada.ca/listings/toilettage-poils-de-plumes-sabrevois-qc-246/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Toilettage Poils de Plumes","description":"Toilettage Poils de Plumes is a cat grooming listing in Sabrevois, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 3.9-star Google rating from 15 reviews, weekend hours, onsite services, wheelchair-accessible parking, walk-ins accepted. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/toilettage-poils-de-plumes-sabrevois-qc-246/","telephone":"+1 438-951-2453","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtKQ6_BQw8RcXxaIHc2OFK8rzQgfMTH7NXeKJdzVrm4u0uZvBH6WB96x92JPJ_gcqfsXTEZ6J-TyoDlkPRbEi1tNR5DGOZ2TJGXZueOEhDBZQD54ur32ScghU_N41KOVX7OrvzIKRRPlEi=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"894 Rte 133","addressLocality":"Sabrevois","addressRegion":"QC","postalCode":"J0J 2G0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.220832","longitude":"-73.2299874"},"areaServed":"Sabrevois, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":3.9,"reviewCount":15,"bestRating":5,"worstRating":1},"sameAs":["https://www.poilsdeplumes.net/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

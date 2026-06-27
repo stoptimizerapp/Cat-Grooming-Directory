@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Ottawa","item":"https://catgroomerscanada.ca/cities/ottawa-on/"},{"@type":"ListItem","position":4,"name":"Completely Mutts Grooming","item":"https://catgroomerscanada.ca/listings/completely-mutts-grooming-ottawa-on-759/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Completely Mutts Grooming","description":"Completely Mutts Grooming is a cat grooming listing in Ottawa, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.8-star Google rating from 397 reviews, weekend hours, onsite services, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/completely-mutts-grooming-ottawa-on-759/","telephone":"+1 613-831-1985","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0RMZc7YgBzLaFp5nIr9yTQwMuUTHPERhxlgNDjtUzAUPiByPLKoB-qqx0RY8SnjqAnf0tfd4p0n49-YTAYAVVRqvDOiw-XMh0yVLvq_r1R8GBCOkgmdmyNgZh4OAHdAwZ574L=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"440 Hazeldean Rd","addressLocality":"Ottawa","addressRegion":"ON","postalCode":"K2L 1V2","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.2999309","longitude":"-75.8847326"},"areaServed":"Ottawa, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":397,"bestRating":5,"worstRating":1},"sameAs":["http://www.completelymutts.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

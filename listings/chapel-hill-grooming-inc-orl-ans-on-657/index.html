@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Orléans","item":"https://catgroomerscanada.ca/cities/orl-ans-on/"},{"@type":"ListItem","position":4,"name":"Chapel Hill Grooming inc","item":"https://catgroomerscanada.ca/listings/chapel-hill-grooming-inc-orl-ans-on-657/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Chapel Hill Grooming inc","description":"Chapel Hill Grooming inc is a cat grooming listing in Orléans, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, dematting. Helpful details include 4.5-star Google rating from 161 reviews, online booking or appointment links, weekend hours, onsite services, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website, request an appointment.","url":"https://catgroomerscanada.ca/listings/chapel-hill-grooming-inc-orl-ans-on-657/","telephone":"+1 613-841-5240","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAExAZtJuZCMgKGdvkmUErRuxKXpqWlfsgVQaQn-deoV5GAzzuAuiTlCT7FQb-6-Q-yxc3R7B6XGmO_SXO_JpXDyUNhc6qbpZHF7wNhBEuh-IO0dr8avdX_Y0UlcaTtqy6A7M-9Xdg=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1600 Forest Valley Dr #4","addressLocality":"Orléans","addressRegion":"ON","postalCode":"K1C 6X7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4488546","longitude":"-75.535982"},"areaServed":"Orléans, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":161,"bestRating":5,"worstRating":1},"sameAs":["http://chapelhillgrooming.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

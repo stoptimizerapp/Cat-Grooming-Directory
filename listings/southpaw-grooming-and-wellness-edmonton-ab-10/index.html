@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Edmonton","item":"https://catgroomerscanada.ca/cities/edmonton-ab/"},{"@type":"ListItem","position":4,"name":"Southpaw Grooming & Wellness","item":"https://catgroomerscanada.ca/listings/southpaw-grooming-and-wellness-edmonton-ab-10/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Southpaw Grooming & Wellness","description":"Southpaw Grooming & Wellness is a cat grooming listing in Edmonton, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance and signals for cat bath, haircut / coat trim, deshedding / brush-out, low-stress handling. Helpful details include 4.9-star Google rating from 37 reviews, online booking or appointment links, credit cards, debit cards. Use the listing to call to confirm services.","url":"https://catgroomerscanada.ca/listings/southpaw-grooming-and-wellness-edmonton-ab-10/","telephone":"+1 780-886-9731","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnCD5leEba7HP3lSiMYw_IPk_tjYc5m4gemaG2XSgLE03KJqCqdkED8wziZgpE2N7dcuJyYL6dyuzBEgjUKXsHetP1kQQwDNO7DaAbSTG0pBuQ-aExRRBilGfqgR466HHTtN25QiwJ4onq=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"11944 62 St NW","addressLocality":"Edmonton","addressRegion":"AB","postalCode":"T5W 4C6","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"53.5732525","longitude":"-113.4371641"},"areaServed":"Edmonton, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.9,"reviewCount":37,"bestRating":5,"worstRating":1},"sameAs":["http://southpawgrooming.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Pierrefonds-Roxboro","item":"https://catgroomerscanada.ca/cities/pierrefonds-roxboro-qc/"},{"@type":"ListItem","position":4,"name":"Adorable Animal","item":"https://catgroomerscanada.ca/listings/adorable-animal-pierrefonds-roxboro-qc-292/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Adorable Animal","description":"Adorable Animal is a cat grooming listing in Pierrefonds-Roxboro, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.8-star Google rating from 199 reviews, weekend hours, wheelchair-accessible entrance, wheelchair-accessible parking, credit cards. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/adorable-animal-pierrefonds-roxboro-qc-292/","telephone":"+1 514-624-9694","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXwgShkLYLHYrsW3ygx00HxC24GFEbDo0vp_VD_9N-UjK8hIZMDkO0wWzcxdaWmO6Z9JEmwnaod0MEz60KUx90VdelmxQUttFWu2Cm_zj8EUBsHZ2TEfT59nhDqNfMdltZNFST=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"14033 Boul Gouin O","addressLocality":"Pierrefonds-Roxboro","addressRegion":"QC","postalCode":"H8Z 1X9","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.4965317","longitude":"-73.850586"},"areaServed":"Pierrefonds-Roxboro, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":199,"bestRating":5,"worstRating":1},"sameAs":["http://www.adorableanimal.ca/fr"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

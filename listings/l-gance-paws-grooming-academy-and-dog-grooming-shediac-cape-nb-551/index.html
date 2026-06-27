@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"New Brunswick","item":"https://catgroomerscanada.ca/provinces/nb/"},{"@type":"ListItem","position":3,"name":"Shediac Cape","item":"https://catgroomerscanada.ca/cities/shediac-cape-nb/"},{"@type":"ListItem","position":4,"name":"Élégance Paws Grooming Academy & Dog Grooming","item":"https://catgroomerscanada.ca/listings/l-gance-paws-grooming-academy-and-dog-grooming-shediac-cape-nb-551/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Élégance Paws Grooming Academy & Dog Grooming","description":"Élégance Paws Grooming Academy & Dog Grooming is a cat grooming listing in Shediac Cape, NB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, low-stress handling. Helpful details include 4.8-star Google rating from 35 reviews, online booking or appointment links, weekend hours, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit.","url":"https://catgroomerscanada.ca/listings/l-gance-paws-grooming-academy-and-dog-grooming-shediac-cape-nb-551/","telephone":"+1 506-384-0888","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEE9vXwX6OnJwcWEW8ApC9VbmivDcfq89XMXOTb-sBZ3rE7FdSNhlM4QlIFCsYXQT7lvi308lY78qgVj-Ak2auu0GFRZxu_hjPgTDdZbrKiuGpIquOPLLrGFh5jd3RXh4DQidic=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"109 Old Mill Rd","addressLocality":"Shediac Cape","addressRegion":"NB","postalCode":"E4P 3A1","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"46.2381849","longitude":"-64.581125"},"areaServed":"Shediac Cape, NB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":35,"bestRating":5,"worstRating":1},"sameAs":["https://elegancepawsgrooming.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Ontario","item":"https://catgroomerscanada.ca/provinces/on/"},{"@type":"ListItem","position":3,"name":"Woodbridge","item":"https://catgroomerscanada.ca/cities/woodbridge-on/"},{"@type":"ListItem","position":4,"name":"So Fetch","item":"https://catgroomerscanada.ca/listings/so-fetch-woodbridge-on-690/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"So Fetch","description":"So Fetch is a cat grooming listing in Woodbridge, ON on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.7-star Google rating from 131 reviews, weekend hours, onsite services, wheelchair-accessible entrance, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/so-fetch-woodbridge-on-690/","telephone":"+1 647-271-7297","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUIJGn6Yh10oqrGYfoZdsZGUOSouAjmrJ0NXfKQweMRw9IP0oZmjXvZkI1yDq0U2Aqll2PbkUEnmJgVpXPsb_mmuFW_ZnmZVMbtxrN1RY7RobF6h1BKXWyoCda_shlxGQqUUWUbQ=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"205 Marycroft Ave Unit 7","addressLocality":"Woodbridge","addressRegion":"ON","postalCode":"L4L 5X7","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"43.7847479","longitude":"-79.5648188"},"areaServed":"Woodbridge, ON","aggregateRating":{"@type":"AggregateRating","ratingValue":4.7,"reviewCount":131,"bestRating":5,"worstRating":1},"sameAs":["http://www.sofetchinc.com/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Sainte-Martine","item":"https://catgroomerscanada.ca/cities/sainte-martine-qc/"},{"@type":"ListItem","position":4,"name":"Tonte et toilettage Marie-Josée","item":"https://catgroomerscanada.ca/listings/tonte-et-toilettage-marie-jos-e-sainte-martine-qc-466/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Tonte et toilettage Marie-Josée","description":"Tonte et toilettage Marie-Josée is a cat grooming listing in Sainte-Martine, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming. Helpful details include 4.5-star Google rating from 54 reviews, free parking lot, on-site parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/tonte-et-toilettage-marie-jos-e-sainte-martine-qc-466/","telephone":"+1 450-427-1301","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHluIsjzuH-aCuRTeSYSNnaqaA91YuZ5hOEn9OZiJtF--6av3nUZoXS15htkLTsyrciP7xGb37LFfktOv71P3xXzbacYCCXoDTuFZozJuN8nagcWRFYYM11bbYMsMftLNNZsLZj=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"1 Rue Phénix","addressLocality":"Sainte-Martine","addressRegion":"QC","postalCode":"J0S 1V0","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"45.268547","longitude":"-73.7994949"},"areaServed":"Sainte-Martine, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.5,"reviewCount":54,"bestRating":5,"worstRating":1},"sameAs":["http://www.chez.com/toilettage"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

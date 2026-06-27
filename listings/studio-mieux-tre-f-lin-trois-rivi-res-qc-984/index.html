@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Quebec","item":"https://catgroomerscanada.ca/provinces/qc/"},{"@type":"ListItem","position":3,"name":"Trois-Rivières","item":"https://catgroomerscanada.ca/cities/trois-rivi-res-qc/"},{"@type":"ListItem","position":4,"name":"Studio Mieux Être Félin","item":"https://catgroomerscanada.ca/listings/studio-mieux-tre-f-lin-trois-rivi-res-qc-984/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Studio Mieux Être Félin","description":"Studio Mieux Être Félin is a cat grooming listing in Trois-Rivières, QC on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to pet groomer services with cat-grooming relevance. Helpful details include 4.8-star Google rating from 6 reviews, wheelchair-accessible parking. Use the listing to call to confirm services, visit the website.","url":"https://catgroomerscanada.ca/listings/studio-mieux-tre-f-lin-trois-rivi-res-qc-984/","telephone":"+1 819-373-0907","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFixdIXidgPHxDZYm9Un96YwYPD3CU4hD1g5pX8qctdZHgDpSX84pv9iZte-LSPj14HyfMpoZlCDAFVUYQ-tGRPyvD5oTZPO1x1MYWHNigYT90-wSWD7H5a8G3DWTxuAA3D0F4yEA=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"7385 Rue P. E. Neveu","addressLocality":"Trois-Rivières","addressRegion":"QC","postalCode":"G8Y 5R3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"46.3698311","longitude":"-72.6205313"},"areaServed":"Trois-Rivières, QC","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":6,"bestRating":5,"worstRating":1},"sameAs":["https://www.aiguisagesml.ca/toilettage-de-chat-a-trois-rivieres/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

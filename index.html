@@ -20,6 +20,26 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Cat Groomers Canada","url":"https://catgroomerscanada.ca","logo":"https://catgroomerscanada.ca/assets/logo.svg","sameAs":[]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Cat Groomers Canada","url":"https://catgroomerscanada.ca","potentialAction":{"@type":"SearchAction","target":"https://catgroomerscanada.ca/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I find cat groomers near me?","acceptedAnswer":{"@type":"Answer","text":"Search by city, province or postal-code area, then compare cat-specific service signals, mobile availability, booking links, ratings, weekend hours and contact details."}},{"@type":"Question","name":"Does every pet groomer groom cats?","acceptedAnswer":{"@type":"Answer","text":"No. Cats need different handling, coat knowledge and stress management. Always confirm that the business currently accepts cats before booking."}},{"@type":"Question","name":"What makes this directory useful?","acceptedAnswer":{"@type":"Answer","text":"Each listing includes a professional summary, local signals, mobile indicators, source links, booking details and practical questions to ask before an appointment."}}]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

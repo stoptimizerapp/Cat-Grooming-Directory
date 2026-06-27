@@ -19,6 +19,26 @@
   <meta name="twitter:image" content="https://catgroomerscanada.ca/assets/hero-social.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://catgroomerscanada.ca/"},{"@type":"ListItem","position":2,"name":"Alberta","item":"https://catgroomerscanada.ca/provinces/ab/"},{"@type":"ListItem","position":3,"name":"Whitecourt","item":"https://catgroomerscanada.ca/cities/whitecourt-ab/"},{"@type":"ListItem","position":4,"name":"Kiss My Mutt Grooming and Doggy Daycare - Grooming salon & Grooming training centre, Doggy Daycare","item":"https://catgroomerscanada.ca/listings/kiss-my-mutt-grooming-and-doggy-daycare-grooming-salon-and-grooming-training-centre-doggy-daycare-whitecourt-ab-38/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kiss My Mutt Grooming and Doggy Daycare - Grooming salon & Grooming training centre, Doggy Daycare","description":"Kiss My Mutt Grooming and Doggy Daycare - Grooming salon & Grooming training centre, Doggy Daycare is a cat grooming listing in Whitecourt, AB on Cat Groomers Canada for local pet parents searching for cat groomers near me. Available source signals point to cat grooming and signals for cat grooming, cat bath, nail trim, haircut / coat trim, dematting. Helpful details include 4.8-star Google rating from 95 reviews, online booking or appointment links, onsite services, wheelchair-accessible.","url":"https://catgroomerscanada.ca/listings/kiss-my-mutt-grooming-and-doggy-daycare-grooming-salon-and-grooming-training-centre-doggy-daycare-whitecourt-ab-38/","telephone":"+1 780-932-8525","image":"https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_TAcXsmwl6nlF-d2V6uzXqGNeAZpgsnB0v85zVwhsoNGTG1aR-UuLEhM1Zhw9PAA92ib9j5bV9znZAgaU9Ifvp54YCi9sUaHNUCuV0st6nAaBk9yMXlGf0WjqwcfbUfOZD3GRY0GpVXw=w800-h500-k-no","address":{"@type":"PostalAddress","streetAddress":"4213 42 Ave #5","addressLocality":"Whitecourt","addressRegion":"AB","postalCode":"T7S 0A3","addressCountry":"CA"},"geo":{"@type":"GeoCoordinates","latitude":"54.1311167","longitude":"-115.6675999"},"areaServed":"Whitecourt, AB","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":95,"bestRating":5,"worstRating":1},"sameAs":["https://kissmymuttgrooming.ca/"]}</script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    "apiKey": "AIzaSyD7A5rA2c8Jql5BhsNohSaA-9iZ94_9diQ",
+    "authDomain": "cat-groomers-canada.firebaseapp.com",
+    "projectId": "cat-groomers-canada",
+    "storageBucket": "cat-groomers-canada.firebasestorage.app",
+    "messagingSenderId": "636209293341",
+    "appId": "1:636209293341:web:c7c41b271a0846eac23ef4",
+    "measurementId": "G-8K2MR3QZ1P"
+};
+  const app = initializeApp(firebaseConfig);
+  isSupported().then((supported) => {
+    if (supported) {
+      getAnalytics(app);
+    }
+  }).catch(() => {});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
