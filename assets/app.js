@@ -93,11 +93,11 @@ function renderResults() {
     return;
   }
   results.innerHTML = matches.map(item => `
-    <div class="result-item">
-      <a href="${item.url}">${item.name}</a>
-      ${Number.isFinite(item.distanceKm) ? `<div class="distance-line">${formatDistance(item.distanceKm)}</div>` : ''}
-      <div>${item.city}, ${item.province} · ${item.mobile} · ${item.rating || 'No rating'} stars · ${item.reviews || 0} reviews</div>
-    </div>
+    <a class="result-item" href="${item.url}">
+      <strong>${item.name}</strong>
+      ${Number.isFinite(item.distanceKm) ? `<span class="distance-line">${formatDistance(item.distanceKm)}</span>` : ''}
+      <span>${item.city}, ${item.province} · ${item.mobile} · ${item.rating || 'No rating'} stars · ${item.reviews || 0} reviews</span>
+    </a>
   `).join('');
 }
 
