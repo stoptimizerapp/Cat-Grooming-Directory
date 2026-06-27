@@ -147,6 +147,8 @@ img{max-width:100%;display:block}
 .tag-cloud{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 26px}
 .tag-cloud span{border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:#fff;font-size:14px}
 .tag-cloud.muted span{background:var(--soft)}
+.embed-code{width:100%;min-height:94px;border:1px solid var(--line);border-radius:var(--radius);padding:14px;background:#f8fbfa;color:#173d30;font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;resize:vertical}
+.badge-preview{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:var(--radius);padding:18px;background:#fff;box-shadow:var(--shadow-soft);margin:6px 0 14px}
 .article p,.article li{font-size:18px;color:#31443d}
 .article h2{margin-top:34px}
 .check-list{padding-left:20px}
